@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.example.go_green.ui.main.MainFragment"
+        android:label="@string/title_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/navigation_dailytasks"
+        android:name="com.example.go_green.ui.dailytasks.DailyTasksFragment"
+        android:label="@string/title_dailytasks"
+        tools:layout="@layout/fragment_dailytasks" />
+
+    <fragment
+        android:id="@+id/navigation_goals"
+        android:name="com.example.go_green.ui.goals.GoalsFragment"
+        android:label="@string/title_goals"
+        tools:layout="@layout/fragment_goals" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.go_green.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>

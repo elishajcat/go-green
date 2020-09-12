@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Go_Green</string>
+    <string name="title_main">Main</string>
+    <string name="title_dailytasks">Daily Tasks</string>
+    <string name="title_goals">Goals</string>
+    <string name="title_account">Account</string>
+    <string name="text_look_at_earth">Let's See How Your Actions Could Affect The Earth</string>
+
+
+</resources>
